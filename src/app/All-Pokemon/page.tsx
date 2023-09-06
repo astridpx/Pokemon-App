@@ -9,7 +9,7 @@ import AllPokederFilter from "@/components/All-Pokeder-Filter";
 const FetchPokemon = async () => {
   try {
     const { data } = await Axios.get(
-      "https://pokeapi.co/api/v2/pokemon?limit=500&offset=0"
+      "https://pokeapi.co/api/v2/pokemon?limit=1000&offset=0"
     );
 
     // console.log(data?.results);
